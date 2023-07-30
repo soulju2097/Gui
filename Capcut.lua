@@ -356,7 +356,7 @@
 					local minutes = math.floor(scripttime/60%60)
 					local hours = math.floor(scripttime/3600)
 					local tempo = string.format("%.0f Hour , %.0f Minute , %.0f Second", hours ,minutes, seconds)
-					window.NameLabel.Text = window.name.."              "..tempo
+					window.NameLabel.Text = window.name.."          "..tempo
 				end) 
 			end
 		end)
